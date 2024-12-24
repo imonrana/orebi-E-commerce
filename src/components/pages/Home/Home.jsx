@@ -1,6 +1,8 @@
 import React from 'react'
 import Banner from '../../Banner/Banner'
-import Promotion from '../../Promotion/Promotion'
+import AdditionalInfo from '../../AdditionalInfo/AdditionalInfo'
+import Advertises from '../../Advertise/Advertises'
+import NewArrival from '../../NewArrival/NewArrival'
 
 
 const Home = () => {
@@ -8,7 +10,9 @@ const Home = () => {
    <>
    <main>
    <Banner/>
-   <Promotion/>
+   <AdditionalInfo/>
+   <Advertises/>
+   <NewArrival/>
    </main>
    </>
   )

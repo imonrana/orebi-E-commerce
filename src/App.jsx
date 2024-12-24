@@ -1,5 +1,6 @@
 
 import './App.css'
+
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -9,7 +10,9 @@ import {
 import Home from './components/pages/Home/Home';
 import Root from './components/Root/Root';
 
-
+// slick slider
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function App() {
 
   const router = createBrowserRouter(

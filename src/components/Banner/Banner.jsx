@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import AdditionalInfo from '../AdditionalInfo/AdditionalInfo'
 
 import bannerImgOne from "../../assets/Banner_img_one.png";
 import bannerImgTwo from "../../assets/banner_img_two.jpg";
@@ -14,8 +13,7 @@ import bannerImgTen from "../../assets/banner_img_ten.jpg";
 
 // slick sllider
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import SliderItem from "../Layouts/SliderItem/SliderItem";
 
 const Banner = () => {
@@ -92,7 +90,7 @@ const [activeSlide, setActiveSlide] = useState(0)
         <SliderItem className=" h-[430px]" src={bannerImgTen} alt={bannerImgTen}/>
         
       </Slider>
-      <AdditionalInfo/>
+      
     </section>
 
   );

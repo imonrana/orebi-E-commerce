@@ -7,7 +7,8 @@ import Container from '../Layouts/Container/Container'
 
 const AdditionalInfo = () => {
   return (
-    <Container className="my-5">
+    <div className="my-5 shadow py-5">
+    <Container>
         <Flex className="justify-between">
         <Flex className="items-center  gap-x-4">
         <span><RiNumber2 className='text-lg text-[#262626]' /></span>
@@ -22,9 +23,9 @@ const AdditionalInfo = () => {
         <p className='font-dmSans font-normal text-base text-[#6D6D6D]'>Return policy in 30 days</p>
         </Flex>
         </Flex>
-           
-        
     </Container>
+    </div>
+    
   )
 }
 
