@@ -7,12 +7,15 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import Home from './components/pages/Home/Home';
 import Root from './components/Root/Root';
+
+import Home from './components/pages/Home/Home';
+import Shop from './components/pages/Shop/Shop';
 
 // slick slider
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 function App() {
 
   const router = createBrowserRouter(
@@ -23,6 +26,7 @@ function App() {
       >
         <Route>
           <Route index element={<Home/>} />
+          <Route path='product' element={<Shop/>}/>
           
         </Route>
       </Route>

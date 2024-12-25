@@ -5,7 +5,8 @@ import { FaHeart } from "react-icons/fa";
 import { TbReload } from "react-icons/tb";
 import { ImCart } from "react-icons/im";
 
-const ProductCard = ({ badge, src, alt, }) => {
+
+const ProductCard = ({ badge, src, alt, color }) => {
   return (
     <div>
         <div className='relative group overflow-hidden cursor-pointer'>
@@ -39,7 +40,7 @@ const ProductCard = ({ badge, src, alt, }) => {
             <h4 className='font-dmSans font-bold text-xl text-primary'>Basic Crew Neck Tee</h4>
             <p className='font-dmSans font-normal text-base text-[#767676]'>$44.00</p>
         </div>
-        <p className='font-dmSans font-normal text-base text-[#767676] pb-11'>Black</p>
+        <p className='font-dmSans font-normal text-base text-[#767676] pb-11'>{color}</p>
 
         </div>
   )
